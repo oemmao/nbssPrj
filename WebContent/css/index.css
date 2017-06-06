@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+/*header*/
+.mainHead {
+	height: 300px;
+	background-color: #ffffff;
+}
+/*section*/
+.mainSection {
+	height: 500px;
+	background-color: yellow;
+}
+.mainArticle-bookList {
+	height: 300px;
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+}
+.mainArticle-csInfo {
+	height: 200px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #BDBDBD;
+}
+/*footer*/
+.mainFooter {
+	height: 150px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #BDBDBD;
+}
+/*memberUpdate*/
+.memberUpdate-form {
+	width: 500px;
+	margin: 0 auto;
+}

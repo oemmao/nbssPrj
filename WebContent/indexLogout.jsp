@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<jsp:include page="/layout/top.jsp" flush="false" />
+	<jsp:include page="/layout/top_Logout.jsp" flush="false" />
 	<section>
 		<article class="mainArticle-bookList">
 			<b>section -> article</b><br>

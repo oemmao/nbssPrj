@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Book in the Box</title>
 </head>
 <body>
-doHaeng
-doHaeng
-doHaeng
-doHaeng
-doHaeng
+
 </body>
 </html>
