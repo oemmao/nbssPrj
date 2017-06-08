@@ -5,8 +5,66 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<title>Book in the Box</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
-
+	<jsp:include page="/layout/top.jsp" flush="false" />
+	<section>
+		<article>
+		<form class="form-horizontal memberUpdate-form">
+			<fieldset>
+				<legend>회원가입</legend>
+				<div class="form-group">
+					<label for="inputEmail" class="col-lg-2 control-label">ID</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="#" placeholder="ID">
+						<button id="idck">중복확인</button><br>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputPassword" class="col-lg-2 control-label">Password</label>
+					<div class="col-lg-10">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" class="col-lg-2 control-label">Name</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="#" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" class="col-lg-2 control-label">Address</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="#" placeholder="Address">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="col-lg-10 col-lg-offset-2">
+						<button type="reset" class="btn btn-default">Cancel</button>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</article> 
+		<jsp:include page="/layout/section_CS.jsp" flush="false" />
+	</section>
+	<jsp:include page="/layout/bottom.jsp" flush="false" />
 </body>
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 </html>
