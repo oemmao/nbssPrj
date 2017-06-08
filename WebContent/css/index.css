@@ -1,8 +1,13 @@
 @CHARSET "UTF-8";
 /*header*/
 .mainHead {
-	height: 300px;
+	max-height: 500px;
 	background-color: #ffffff;
+}
+.indexImg {
+	width: 100%;
+	max-width: 300px;
+	align: center;
 }
 /*section*/
 .mainSection {
@@ -26,7 +31,7 @@
 	border-bottom: 1px solid #BDBDBD;
 }
 /*memberUpdate*/
-.memberUpdate-form {
+.memberPage-form {
 	width: 500px;
 	margin: 0 auto;
 }

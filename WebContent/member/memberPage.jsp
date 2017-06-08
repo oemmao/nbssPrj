@@ -12,7 +12,7 @@
 	<jsp:include page="/layout/top_Logout.jsp" flush="false" />
 	<section>
 		<article>
-		<form class="form-horizontal memberUpdate-form">
+		<form class="form-horizontal memberPage-form">
 			<fieldset>
 				<legend>개인 정보 수정</legend>
 				<div class="form-group">
