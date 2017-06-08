@@ -9,10 +9,27 @@
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
-	<jsp:include page="/layout/top.jsp" flush="false" />
+	<jsp:include page="/layout/top_Logout.jsp" flush="false" />
 	<section>
-		<article class="mainArticle-bookList">
-			
+		<article>
+		<form class="form-horizontal memberPage-form">
+			<fieldset>
+				<legend>정기배송</legend>
+				<table>
+					<tr>
+						<td><a href="#" class="btn btn-info">6개월 \100,000</a></td>
+						<td><a href="#" class="btn btn-info">12개월 \150,000</a></td>
+						<td><a href="#" class="btn btn-info">18개월 \200,000</a></td>
+					</tr>	
+				</table>
+				<div class="form-group">
+					<div class="col-lg-10 col-lg-offset-2">
+						<button type="reset" class="btn btn-default">Cancel</button>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</fieldset>
+		</form>	
 		</article>
 		<jsp:include page="/layout/section_CS.jsp" flush="false" />
 	</section>

@@ -1,9 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <header class="mainHead"> 
-
 <div>
-	<img src="image/bookinthebox.jpg" class="indexImg" >
+	<img src="<%=route %>/image/bookinthebox.jpg" class="indexImg" >
 </div>
 </header>
 <nav class="navbar navbar-default">
