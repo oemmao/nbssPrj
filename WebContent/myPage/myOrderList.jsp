@@ -4,9 +4,105 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Book in the Box</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
+	<jsp:include page="/layout/top_Logout.jsp" flush="false" />
+	<section>
+	<h2><div align="center">My Page</div></h2>
+		<article>
+		<form class="form-horizontal">
+  <fieldset>
+    <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">구매내역</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped table-hover ">
+  <thead>
+    <tr class="danger">
+      <th>구매번호</th>
+      <th>구매날짜</th>
+      <th>상품정보</th>
+      <th>판매가격</th>
+      <th>구매결과</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2016.09.21</td>
+      <td>[신간도서정기배송]6개월</td>
+      <td>100,000원</td>
+      <td>결제완료</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2017.03.27</td>
+      <td>[신간도서정기배송]12개월</td>
+      <td>180,000원</td>
+      <td>결제완료</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table> 
+  </div>
+</div>
 
+<div class="panel panel-warning">
+  <div class="panel-heading">
+    <h3 class="panel-title">받은 도서 보기</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped table-hover ">
+  <thead>
+    <tr class="warning">
+      <th>도서번호</th>
+      <th>배송날짜</th>
+      <th>도서정보</th>
+      <th>배송상태</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2016.12.10(3/6개월)</td>
+      <td>[2017년 01월 BOX]#IT전문서적 "자바의 정석"</td></a>
+      <td>배송완료</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2017.04.10(1/12개월)</td>
+      <td>[2017년 04월 BOX]#IT전문서적 "Spring4.0"</td>
+      <td>배송완료</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table> 
+  </div>
+</div>
+  </fieldset>
+</form>
+	</article> 
+		<jsp:include page="/layout/section_CS.jsp" flush="false" />
+	</section>
+	<jsp:include page="/layout/bottom.jsp" flush="false" />
 </body>
-</html>
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
