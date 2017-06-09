@@ -7,8 +7,11 @@
 .indexImg {
 	width: 100%;
 	max-width: 300px;
-	align: center;
+	display: block;
+    margin: 50px auto;
+ 
 }
+
 /*section*/
 .mainSection {
 	height: 500px;
