@@ -12,6 +12,7 @@
 	<jsp:include page="/layout/top.jsp" flush="false" />
 	<section>
 		<article>
+		
 			<div class="jumbotron">
   				<h1>결제가 완료되었습니다.</h1>
   				<p>		회원님! 도서는 매월 10일 일괄배송됩니다. </p>
@@ -26,6 +27,7 @@
 				</div>
 		</article> 
 		<jsp:include page="/layout/section_CS.jsp" flush="false" />
+		
 	</section>
 	<jsp:include page="/layout/bottom.jsp" flush="false" />
 </body>
