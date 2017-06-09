@@ -12,8 +12,8 @@
 <div class="container-fluid">
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav ">
-		<li><a href="#">로그인</a></li>
-			<li><a href="#">회원가입</a></li>
+		<li><a href="<%=route %>/login/login.jsp">로그인</a></li>
+			<li><a href="<%=route %>/member/memberInsert.jsp">회원가입</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">마이페이지
 					<span class="caret"></span>
