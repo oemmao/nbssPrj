@@ -26,7 +26,7 @@
 						 </thead>
 						<tbody>
 						<tr>
-						    <td><img src="/image/book.jsp"></td>
+						    <th><img src="../image/book.jpg" id="orderimg"></th>
 						    <td>6개월</td>
 						    <td>100.000 원</td>						    
 						 </tr>

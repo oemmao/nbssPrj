@@ -6908,3 +6908,9 @@ label {
 .pager .disabled > a {
   border-color: #dddddd;
 }
+.jumbotron {
+	text-align: center;
+}
+#orderimg{
+	width:50px;
+}
