@@ -76,7 +76,7 @@
     <tr>
       <td>1</td>
       <td>2016.12.10</td>
-      <td>[2017년 01월 BOX]#IT전문서적 "자바의 정석"<input type="button" value="상세정보보기" id="bookListForm"></td>
+      <td><a id="bookListForm">[2017년 01월 BOX]#IT전문서적 "자바의 정석"</a></td>
       <td>(3/6개월)</td>
       <td>배송완료</td>
     </tr>
