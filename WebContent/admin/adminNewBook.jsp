@@ -9,43 +9,45 @@
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
-	<jsp:include page="../layout/top.jsp" flush="false" />
+	<jsp:include page="../layout/top_Admin.jsp" flush="false" />
 	<section>
 		<article class="mainArticle-adminNewBook">
 			<fieldset>
 				<legend>신간도서관리</legend>
 				<div class="mainArticle-NewBookMana">
-				<a href="#"><input type="button" value="등록" ></a>
+				<input type="button" value="등록" >
 				<input type="button" value="삭제" >
-				<input type="button" value="이월도서이동" >
+				<input type="button" value="전체선택" >
+				<a href="adminBookList.jsp"><input type="button" value="이월도서이동" ></a>
+				<br>
 				<table>
 					<tr>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 A도서</td>
+							<label><input type="checkbox" value="고유번호">6월 A도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 B도서</td>
+							<label><input type="checkbox" value="고유번호">6월 B도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 C도서</td>
+							<label><input type="checkbox" value="고유번호">6월 C도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 D도서</td>
+							<label><input type="checkbox" value="고유번호">6월 D도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 E도서</td>
+							<label><input type="checkbox" value="고유번호">6월 E도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 F도서</td>
+							<label><input type="checkbox" value="고유번호">6월 F도서</label></td>
 					</tr>
 					<tr>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 G도서</td>
+							<label><input type="checkbox" value="고유번호">6월 G도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 H도서</td>
+							<label><input type="checkbox" value="고유번호">6월 H도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 I도서</td>
+							<label><input type="checkbox" value="고유번호">6월 I도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 J도서</td>
+							<label><input type="checkbox" value="고유번호">6월 J도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 K도서</td>
+							<label><input type="checkbox" value="고유번호">6월 K도서</label></td>
 						<td><img src="../image/book.jpg" class="indeximg"><br>
-							6월 L도서</td>
+							<label><input type="checkbox" value="고유번호">6월 L도서</label></td>
 					</tr>
 				</table>
 				</div>

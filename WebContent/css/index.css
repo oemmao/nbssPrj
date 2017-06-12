@@ -50,6 +50,27 @@
 	width : 130px;
 }
 
+.mainArticle-adminNewBook{
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+	
+}
+.mainArticle-NewBookMana table{
+	margin : auto;
+}
+.mainArticle-adminBook{
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+}
+.mainArticle-adminBook table{
+	margin : auto;
+}
+.insertbook{
+	width:200px;
+}
+
 /*footer*/
 .mainFooter {
 	height: 150px;
