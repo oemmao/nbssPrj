@@ -6914,14 +6914,3 @@ label {
 #orderimg{
 	width:50px;
 }
-.mainArticle-csInfo{
-	text-align: center;
-/* 	display : inline; */
-	columns : auto 3;
-}
-.mainArticle-csInfo img{
-	width:150px;
-}
-.mainFooter{
-	text-align: center;
-}
