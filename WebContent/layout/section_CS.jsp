@@ -5,7 +5,7 @@
 %>
 <article class="mainArticle-csInfo">
 	<div>
-		<img src="<%=route %>/image/bookinthebox.jpg">
+		<img src="<%=route %>/image/bookinthebox.jpg" class="csImg">
 	</div>
 	<div>
 		<h3>CS CENTER</h3><br>

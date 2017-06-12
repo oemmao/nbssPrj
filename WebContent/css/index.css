@@ -45,10 +45,11 @@
 }
 .mainArticle-csInfo{
 	text-align: center;
-/* 	display : inline; */
+/*  	display : inline;  */
 	columns : auto 3;
 }
-.mainArticle-csInfo img{
+
+.csImg{
 	width:150px;
 }
 .mainFooter{
