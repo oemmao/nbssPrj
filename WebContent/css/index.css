@@ -67,3 +67,15 @@
 	width: 100%;
 	margin: 0 auto;
 }
+/*productList*/
+.productTable td{
+	padding: 10px;
+}
+.productImg {
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+}
+.button-align {
+	text-align: center;
+}
