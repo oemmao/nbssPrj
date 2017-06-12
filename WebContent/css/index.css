@@ -9,7 +9,6 @@
 	max-width: 300px;
 	display: block;
     margin: 50px auto;
- 
 }
 
 /*section*/
@@ -26,12 +25,23 @@
 	height: 200px;
 	background-color: #ffffff;
 	border-bottom: 1px solid #BDBDBD;
+	text-align: center;
+/* 	display : inline; */
+	columns : auto 3;
+}
+.mainArticle-csInfo img{
+	width:150px;
+}
+.mainArticle-bookList p {
+	text-align: center;
+	font-size:30px;
 }
 /*footer*/
 .mainFooter {
 	height: 150px;
 	background-color: #ffffff;
 	border-bottom: 1px solid #BDBDBD;
+	text-align: center;
 }
 /*memberUpdate*/
 .memberPage-form {
@@ -42,19 +52,4 @@
 .button-form {
 	width: 100%;
 	margin: 0 auto;
-}
-.mainArticle-csInfo{
-	text-align: center;
-/* 	display : inline; */
-	columns : auto 3;
-}
-.mainArticle-csInfo img{
-	width:150px;
-}
-.mainFooter{
-	text-align: center;
-}
-.mainArticle-bookList p {
-	text-align: center;
-	font-size:30px;
 }
