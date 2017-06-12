@@ -28,6 +28,7 @@
 				</ul>	
 			<li><a href="#">소개</a></li>
 			<li><a href="#">정기배송</a></li>
+			<li><a href="#">커뮤니티</a></li>
 			<li><a href="#">도움말</a></li>
 			<li><a href="#">고객센터</a></li>
 		</ul>
