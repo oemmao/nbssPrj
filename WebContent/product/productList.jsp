@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,19 +18,28 @@
 		<form class="form-horizontal memberPage-form">
 			<fieldset>
 				<legend>정기배송</legend>
-				<table>
+				<table class="productTable">
 					<tr>
-						<td><a href="#" class="btn btn-info">6개월 \100,000</a></td>
-						<td><a href="#" class="btn btn-info">12개월 \150,000</a></td>
-						<td><a href="#" class="btn btn-info">18개월 \200,000</a></td>
+						<td><img src="<%=route %>/image/book.jpg" class="productImg" ></td>
+						<td><img src="<%=route %>/image/book.jpg" class="productImg" ></td>
+						<td><img src="<%=route %>/image/book.jpg" class="productImg" ></td>
+					</tr>
+					<tr>
+						<td><a href="#" class="btn btn-info">6개월 / 100,000원</a></td>
+						<td><a href="#" class="btn btn-info">12개월 / 150,000원</a></td>
+						<td><a href="#" class="btn btn-info">18개월  / 200,000원</a></td>
+					</tr>
+					<tr>
+						<td colspan="3">
+						<div class="form-group">
+						<div class="col-lg-10 col-lg-offset-2 button-align">
+						<button type="submit" class="btn btn-primary">메인으로</button>
+						</div>
+						</div>
+						</td>
 					</tr>	
 				</table>
-				<div class="form-group">
-					<div class="col-lg-10 col-lg-offset-2">
-						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</div>
-				</div>
+				
 			</fieldset>
 		</form>	
 		</article>
