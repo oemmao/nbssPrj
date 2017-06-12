@@ -12,12 +12,41 @@
 	<jsp:include page="/layout/top.jsp" flush="false" />
 	<section>
 		<article class="mainArticle-bookList">
-			<b>section -> article</b><br>
-			<b>배송된 도서 리스트</b><br>
-			<b>5월 도서</b><br>
-			책이름&nbsp;&nbsp;책이름&nbsp;&nbsp;책이름&nbsp;&nbsp;
-			<br><b>4월 도서</b><br>
-			책이름&nbsp;&nbsp;책이름&nbsp;&nbsp;책이름&nbsp;&nbsp;
+			<fieldset>
+				<legend>6월의 배송 도서</legend>
+				<div class="mainArticle-bookTable">
+				<table>
+					<tr>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 A도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 B도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 C도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 D도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 E도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 F도서</td>
+					</tr>
+					<tr>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 G도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 H도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 I도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 J도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 K도서</td>
+						<td><img src="image/book.jpg" class="indeximg"><br>
+							6월 L도서</td>
+					</tr>
+				</table>
+				</div>
+			</fieldset>
 		</article>
 		<jsp:include page="/layout/section_CS.jsp" flush="false" />
 	</section>

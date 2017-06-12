@@ -20,6 +20,8 @@
 	height: 300px;
 	background-color: #E6E6E6;
 	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+	
 }
 .mainArticle-csInfo {
 	height: 200px;
@@ -36,6 +38,18 @@
 	text-align: center;
 	font-size:30px;
 }
+.mainArticle-bookTable table{
+	margin:auto;
+/* 	margin-right:auto; */
+/* 	text-align: center; */
+/* 	vertical-align:middle; */
+	
+}
+
+.indeximg{
+	width : 130px;
+}
+
 /*footer*/
 .mainFooter {
 	height: 150px;
