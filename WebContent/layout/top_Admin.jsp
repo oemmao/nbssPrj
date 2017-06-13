@@ -30,7 +30,16 @@
 			<li><a href="<%=route %>/product/productList.jsp">정기배송</a></li>
 			<li><a href="<%=route %>/board/boardMain.jsp">커뮤니티</a></li>
 			<li><a href="<%=route %>/help/help.jsp">도움말</a></li>
-			<li><a href="#">관리자페이지</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">관리자페이지
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="<%=route %>/member/memberPage.jsp">신간도서 관리</a></li>
+					<li><a href="<%=route %>/myPage/myOrderList.jsp">이월도서 리스트</a></li>
+					<li class="divider"></li>
+					<li><a href="#">게시판 관리</a></li>
+				</ul>	
 		</ul>
 	</div>
 </div>

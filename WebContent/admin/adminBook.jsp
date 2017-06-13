@@ -18,32 +18,47 @@
 				<table>
 					<tr>
 						<th>도서명</th>
-						<td><input type="text" class="insertbook" id="bookName"></td>
+						<td colspan="3"><input type="text" id="bookName" class="insertbook"></td>
 					</tr>
 					<tr>
 						<th>저자</th>
-						<td><input type="text" class="insertbook" id="author"></td>
+						<td colspan="3"><input type="text" id="author" class="insertbook"></td>
 					</tr>
 					<tr>
 						<th>출간일</th>
-						<td><input type="text" class="insertbook" id="date"></td>
+						<td colspan="3"><input type="text" id="date" class="insertbook"></td>
 					</tr>
 					<tr>
 						<th>고유번호</th>
-						<td><input type="text" class="insertbook" id="bno"></td>
+						<td colspan="3"><input type="text" id="bno" class="insertbook"></td>
 					</tr>
 					
 					<tr>
-						<th rowspan="3">태그</th>
-						<td><select id="AA" class="insertbook">
+						<th>태그</th>
+						<td><select id="AA" >
 							<option value="a1">슬퍼요</option>
 							<option value="a2">기뻐요</option>
 							<option value="a3">용기가 필요해요</option>
 							<option value="a4">심심해요</option>
 							<option value="a5">무기력해요</option>
-							</select></td>
+							</select>
+						</td>
+						<td><select id="BB" >
+							<option value="b1">사랑</option>
+							<option value="b2">역사</option>
+							<option value="b3">진로</option>
+							<option value="b4">자기개발</option>
+							<option value="b5">공포<option>
+							</select>
+						</td>
+							<td><select id="CC">
+							<option value="c1">얇은책</option>
+							<option value="c2">보통책</option>
+							<option value="c3">두꺼운책</option>							
+							</select>
+						</td>
 					</tr>
-					<tr>
+				<!-- 	<tr>
 						<td><select id="BB" class="insertbook">
 							<option value="b1">사랑</option>
 							<option value="b2">역사</option>
@@ -58,13 +73,13 @@
 							<option value="c2">보통책</option>
 							<option value="c3">두꺼운책</option>							
 							</select></td>
-					</tr>
+					</tr> -->
 					<tr>
 						<th>이미지</th>
-						<td><input type="file" class="insertbook" id="bookImg"></td>
+						<td colspan="3"><input type="file" class="insertbook" id="bookImg"></td>
 					</tr>
 					<tr>
-						<td colspan="2"><a href="adminNewBook.jsp"><input type="submit" value="등록"></a></td>
+						<td colspan="4"><a href="adminNewBook.jsp"><input type="submit" value="등록"></a></td>
 					</tr>
 					
 					
