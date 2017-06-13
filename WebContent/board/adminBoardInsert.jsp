@@ -41,7 +41,7 @@
 </style>
 </head>
 <body>
-	<jsp:include page="/layout/top.jsp" flush="false" />
+	<jsp:include page="/layout/top_Admin.jsp" flush="false" />
 	<aside class=""> </aside>
 	<section> <article>
 	<fieldset>
