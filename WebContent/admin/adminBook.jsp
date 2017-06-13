@@ -80,7 +80,7 @@
 						id="bookImg"></td>
 				</tr>
 				<tr>
-					<td colspan="4"><a href="adminNewBook.jsp"><input
+					<td colspan="4"><a href="/nbssPrj/admin/adminNewBook.jsp"><input
 							type="submit" value="등록"></a></td>
 				</tr>
 

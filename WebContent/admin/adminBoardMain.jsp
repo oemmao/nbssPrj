@@ -69,7 +69,7 @@
 											<tr>
 												<th><input type="checkbox" name="checkRow"></th>
 												<td>2</td>
-												<td><a href="adminBoardInsert.jsp">..... 조카 크레파스
+												<td><a href="/nbssPrj/adminBoardInsert.jsp">..... 조카 크레파스
 														어디있어요?</a></td>
 												<td>악플다는편이야</td>
 												<td>2017.06.13</td>
@@ -85,7 +85,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<a href="boardInsert.jsp" class="btn btn-default disabled">글쓰기</a>
+									<a href="/nbssPrj/boardInsert.jsp" class="btn btn-default disabled">글쓰기</a>
 								</div>
 							</div>
 						</div>

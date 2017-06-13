@@ -107,7 +107,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<a href="boardInsert.jsp" class="btn btn-default">글쓰기</a>
+									<a href="/nbssPrj/board/boardInsert.jsp" class="btn btn-default">글쓰기</a>
 								</div>
 							</div>
 						</div>

@@ -111,7 +111,7 @@
 												<div class="col-lg-10 col-lg-offset-2">
 													<button type="reset" class="btn btn-default">Cancel</button>
 													<button type="submit" class="btn btn-primary">Submit</button>
-													<a href="boardMain.jsp"><button type="button" class="btn btn-default">List</button></a>
+													<a href="/nbssPrj/board/boardMain.jsp"><button type="button" class="btn btn-default">List</button></a>
 												</div>
 											</div>
 										</fieldset>

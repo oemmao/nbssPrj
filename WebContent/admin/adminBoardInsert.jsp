@@ -79,7 +79,7 @@
 											</div>
 											<div class="form-group">
 												<div class="col-lg-10 col-lg-offset-2">
-													<a href="adminBoardMain.jsp"><button class="btn btn-default">뒤로가기</button></a>
+													<a href="/nbssPrj/adminBoardMain.jsp"><button class="btn btn-default">뒤로가기</button></a>
 													<button type="submit" class="btn btn-primary">삭제하기</button>
 												</div>
 											</div>

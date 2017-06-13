@@ -4,7 +4,7 @@
 	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
 %>
 <article class="mainArticle-csInfo">
-	<table>
+	<table class="csTable">
 		<tr>
 			<td rowspan="3"><img src="<%=route %>/image/bookinthebox.jpg" class="csImg"></td>
 			<td rowspan="1"><h3>CS CENTER</h3></td>
