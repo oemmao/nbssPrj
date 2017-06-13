@@ -2,7 +2,11 @@
     pageEncoding="UTF-8"%>
 <%
 	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+<<<<<<< HEAD
 %>
+=======
+%>    
+>>>>>>> ba046243b22ecdf2a685cffdefff8255d27fb062
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -51,9 +55,15 @@
 				</div>
 				
 				<div class="form-group">
+<<<<<<< HEAD
 					<div class="col-lg-10 col-lg-offset-2 button-align">
 						<a href="<%=route%>/index.jsp"><button type="button" class="btn btn-default">처음으로</button></a>
 						<a href="<%=route%>/member/memberPrefer.jsp"><input type="button" class="btn btn-primary" value="다음"></a>						
+=======
+					<div class="col-lg-10 col-lg-offset-2">
+						<a href="<%=route %>/index.jsp"><button type="button" class="btn btn-default">처음으로</button></a>
+						<a href="<%=route %>/member/memberPrefer.jsp"><input type="button" class="btn btn-primary" value="다음"></a>						
+>>>>>>> ba046243b22ecdf2a685cffdefff8255d27fb062
 					</div>
 				</div>
 			</fieldset>

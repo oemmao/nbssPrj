@@ -20,72 +20,141 @@
 		<div class="mainArticle-NewBookMana">
 			<table>
 				<tr>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+<<<<<<< HEAD
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 A도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 B도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 C도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 D도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 E도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 F도서</td>
 				</tr>
 				<tr>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 				</tr>
 				<tr>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 G도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 H도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 I도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 J도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 K도서</td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
+					<td><img src="/nbssPrj/image/book.jpg" class="indeximg"><br>
 						6월 L도서</td>
 				</tr>
 				<tr>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
 					<td><label><input type="checkbox" value="고유번호"
-							name="checkRow"></label> <a href="adminBook.jsp"><input
+							name="checkRow"></label> <a href="/nbssPrj/admin/adminBook.jsp"><input
 							type="button" value="수정"></a></td>
+=======
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 A도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 B도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 C도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 D도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 E도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 F도서</td>
+				</tr>
+				<tr>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 G도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 H도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 I도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 J도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 K도서</td>
+					<td><img src="../image/book.jpg" class="indeximg"><br>6월 L도서</td>
+				</tr>
+				<tr>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+					<td>
+						<label><input type="checkbox" value="고유번호" name="checkRow"></label>
+						<a href="adminBook.jsp"><input type="button" value="수정"></a>
+					</td>
+>>>>>>> 974c77ba4d31ac9e19bd14bc4285b4088a2248b3
 				</tr>
 			</table>
 		</div>

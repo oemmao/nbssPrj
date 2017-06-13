@@ -2,7 +2,11 @@
 	pageEncoding="UTF-8"%>
 <%
 	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+<<<<<<< HEAD
 %>
+=======
+%>	
+>>>>>>> ba046243b22ecdf2a685cffdefff8255d27fb062
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -52,7 +56,11 @@
 				<div class="form-group">
 					<div class="col-lg-10 col-lg-offset-2 button-align">
 						<button type="reset" class="btn btn-default">Cancel</button>
+<<<<<<< HEAD
 						<a href="<%=route%>/index.jsp"><input type="button" class="btn btn-primary" value="수정완료"></a>						
+=======
+						<a href="/nbssPrj/index.jsp"><input type="button" class="btn btn-primary" value="Submit"></a>	
+>>>>>>> ba046243b22ecdf2a685cffdefff8255d27fb062
 					</div>
 				</div>
 			</fieldset>

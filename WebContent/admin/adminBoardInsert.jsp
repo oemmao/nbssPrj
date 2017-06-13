@@ -19,10 +19,10 @@
 			<tr>
 				<td>
 					<div class="btn-group-vertical">
-						<a href="#" class="btn btn-primary disabled">문학 </a> <a href="#"
-							class="btn btn-primary">자기계발</a> <a href="#"
-							class="btn btn-primary">과학 </a> <a href="#"
-							class="btn btn-primary">인문 </a>
+						<a href="#" class="btn btn-primary disabled">문학 </a> 
+						<a href="#"	class="btn btn-primary">자기계발</a>
+						<a href="#"	class="btn btn-primary">과학 </a>
+						<a href="#"	class="btn btn-primary">인문 </a>
 					</div>
 				</td>
 				<div class="clearfix">
@@ -47,8 +47,7 @@
 											<div class="form-group">
 												<label for="inputEmail" class="col-lg-2 control-label">제목</label>
 												<div class="col-lg-10">
-													<input type="text" class="form-control" id="inputEmail"
-														value="..... 조카 크레파스 어디있어요?">
+													<input type="text" class="form-control" id="inputEmail" value="..... 조카 크레파스 어디있어요?">
 												</div>
 											</div>
 
@@ -61,15 +60,13 @@
 											<div class="form-group">
 												<label for="inputEmail" class="col-lg-2 control-label">작성자</label>
 												<div class="col-lg-10">
-													<input type="text" class="form-control" id="inputEmail"
-														value="악플다는편이야">
+													<input type="text" class="form-control" id="inputEmail" value="악플다는편이야">
 												</div>
 											</div>
 											<div class="form-group">
 												<label for="inputPassword" class="col-lg-2 control-label">비밀번호</label>
 												<div class="col-lg-10">
-													<input type="password" class="form-control"
-														id="inputPassword" placeholder="Password">
+													<input type="password" class="form-control"	id="inputPassword" placeholder="Password">
 													<div class="checkbox">
 														<label> <input type="checkbox"> 게시판의 성격과
 															무관한 글의 경우 삭제조치가 이루어 질 수 있습니다.
@@ -79,7 +76,7 @@
 											</div>
 											<div class="form-group">
 												<div class="col-lg-10 col-lg-offset-2">
-													<a href="adminBoardMain.jsp"><button class="btn btn-default">뒤로가기</button></a>
+													<a href="/nbssPrj/adminBoardMain.jsp"><button class="btn btn-default">뒤로가기</button></a>
 													<button type="submit" class="btn btn-primary">삭제하기</button>
 												</div>
 											</div>
