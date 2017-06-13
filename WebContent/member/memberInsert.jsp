@@ -49,8 +49,8 @@
 				
 				<div class="form-group">
 					<div class="col-lg-10 col-lg-offset-2">
-						<button type="reset" class="btn btn-default">처음으로</button>
-						<button type="submit" class="btn btn-primary">다음</button>
+						<a href="../index.jsp"><button type="button" class="btn btn-default">처음으로</button></a>
+						<a href="memberPrefer.jsp"><input type="button" class="btn btn-primary" value="다음"></a>						
 					</div>
 				</div>
 			</fieldset>

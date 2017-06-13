@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
-	<jsp:include page="/layout/top_Logout.jsp" flush="false" />
+	<jsp:include page="/layout/top.jsp" flush="false" />
 	<section>
 		<article>
 		<form class="form-horizontal memberPage-form">
@@ -49,7 +49,7 @@
 				<div class="form-group">
 					<div class="col-lg-10 col-lg-offset-2">
 						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<a href="../index.jsp"><input type="button" class="btn btn-primary" value="Submit"></a>	
 					</div>
 				</div>
 			</fieldset>

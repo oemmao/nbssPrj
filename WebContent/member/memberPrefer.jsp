@@ -20,31 +20,31 @@
 					<div class="col-lg-10">
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								10대 이하
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								10대
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								20대
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								30대
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								40대 이상
 							</label>
 						</div>
@@ -55,13 +55,13 @@
 					<div class="col-lg-10">
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios2" id="optionsRadios2" value="option2" checked="">
 								예
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios2" id="optionsRadios2" value="option2" checked="">
 								아니오
 							</label>
 						</div>
@@ -69,8 +69,11 @@
 				</div>
 				<div class="form-group">
 					<div class="col-lg-10 col-lg-offset-2">
+						
 						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<a href="../index.jsp"><input type="button" class="btn btn-primary" value="Submit"></a>	
+										
+						
 					</div>
 				</div>
 			</fieldset>

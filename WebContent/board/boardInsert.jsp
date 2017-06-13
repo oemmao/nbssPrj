@@ -51,10 +51,10 @@
 			<tr>
 				<td>
 					<div class="btn-group-vertical">
-						<a href="#" class="btn btn-primary disabled">문학 </a> <a href="#"
-							class="btn btn-primary">자기계발</a> <a href="#"
-							class="btn btn-primary">과학 </a> <a href="#"
-							class="btn btn-primary">인문 </a>
+						<a href="#" class="btn btn-primary disabled">문학 </a> 
+						<a href="#"	class="btn btn-primary">자기계발</a> 
+						<a href="#" class="btn btn-primary">과학 </a> 
+						<a href="#"	class="btn btn-primary">인문 </a>
 					</div>
 				</td>
 				<div class="clearfix">
@@ -111,6 +111,7 @@
 												<div class="col-lg-10 col-lg-offset-2">
 													<button type="reset" class="btn btn-default">Cancel</button>
 													<button type="submit" class="btn btn-primary">Submit</button>
+													<a href="boardMain.jsp"><button type="button" class="btn btn-default">List</button></a>
 												</div>
 											</div>
 										</fieldset>
