@@ -20,6 +20,8 @@
 	height: 300px;
 	background-color: #E6E6E6;
 	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+	
 }
 .mainArticle-csInfo {
 	height: 200px;
@@ -36,6 +38,39 @@
 	text-align: center;
 	font-size:30px;
 }
+.mainArticle-bookTable table{
+	margin:auto;
+/* 	margin-right:auto; */
+/* 	text-align: center; */
+/* 	vertical-align:middle; */
+	
+}
+
+.indeximg{
+	width : 130px;
+}
+
+.mainArticle-adminNewBook{
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+	
+}
+.mainArticle-NewBookMana table{
+	margin : auto;
+}
+.mainArticle-adminBook{
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+}
+.mainArticle-adminBook table{
+	margin : auto;
+}
+.insertbook{
+	width:200px;
+}
+
 /*footer*/
 .mainFooter {
 	height: 150px;
@@ -52,4 +87,16 @@
 .button-form {
 	width: 100%;
 	margin: 0 auto;
+}
+/*productList*/
+.productTable td{
+	padding: 10px;
+}
+.productImg {
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+}
+.button-align {
+	text-align: center;
 }
