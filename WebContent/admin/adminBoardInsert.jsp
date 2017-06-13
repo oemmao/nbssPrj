@@ -7,38 +7,6 @@
 <title>Book in the Box</title>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<style>
-.column {
-	float: left;
-	padding: 15px;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.menu {
-	width: 100%;
-}
-
-.content {
-	width: 75%;
-}
-
-.menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.menu li {
-	padding: 8px;
-	margin-bottom: 8px;
-	color: #ffffff;
-}
-</style>
 </head>
 <body>
 	<jsp:include page="/layout/top_Admin.jsp" flush="false" />
