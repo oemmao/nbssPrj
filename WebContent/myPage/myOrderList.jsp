@@ -99,18 +99,13 @@
 
 	<table class="bookForm" align="center" width="940" style="padding:5px 0 5px 0; ">
 	<tr>
-	<th colspan="2"> <h2>로그인</h2></th>
+	<th colspan="2"> <h2>[2017년 01월 BOX]#IT전문서적 "자바의 정석"</h2></th>
 	</tr>
     <tr height="2" bgcolor="#FFC8C3"><td colspan="2"></td></tr>
 	
 	<tr>
-	<th>ID </th>
-	<td><input type="text" name="memId" size="10" id="memId"> </td>
-	</tr>
-	
-	<tr>
-	<th>PW </th>
-	<td><input type="password" name="pwd" size="10" id="pwd"></td>
+	<th width="160px"><img src="../image/book.jpg" width="150px" > </th>
+	<td><b>자바의정석</b><br>저자:남궁성<br>출판일:2016년02월01일<br>정가:30,000원</td>
 	</tr>
  	
  		<tr>
@@ -118,11 +113,37 @@
  	</tr>
  	
     <tr height="2" bgcolor="#FFC8C3"><td colspan="2"></td></tr>
- 	 
+ 	<tr>
+ 		<td colspan="2">
+ 		<div class="form-group">
+	      <label class="col-lg-2 control-label">책의 만족도를 평가해주세요.</label>
+	      <div class="col-lg-10">
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+	            	매우만족
+	          </label>
+	        </div>
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+	            	보통
+	          </label>
+	        </div>
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+	            	다른책을 보내주세요.
+	          </label>
+	        </div>
+	      </div>
+	    </div>
+ 		</td>
+ 	
+ 	</tr>
  	<tr>
              <td colspan="2" align="center">
-			<input type="button" id="loginMember" value="로그인">
-            <input type="button" id="insertMember" value="회원가입">
+			<input type="button" id="evaluation" value="평가하기">
             </td>
            </tr>
 </table>
@@ -144,6 +165,9 @@
 <script>
 		$(document).ready(function() {		
 			$('.bookForm').hide();
+			$('#evaluation').click(function(){
+				alert("고객님 도서정보에 반영되었습니다.");
+			});
 			$('#bookListForm').click(function(){	//각자의 버튼을 누르면, 폼이 나오도록 설정
 				$('.bookForm').fadeToggle('slow');			 
 			});

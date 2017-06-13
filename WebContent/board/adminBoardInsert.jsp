@@ -73,41 +73,48 @@
 							<div class="panel panel-default">
 								<div class="panel-body" align="center">
 
-									<table class="table table-striped table-hover " align="center">
-										<thead>
-											<tr class="danger">
-												<th>글번호</th>
-												<th>글제목</th>
-												<th>글쓴이</th>
-												<th>작성일</th>
-												<th>조회수</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>3</td>
-												<td>밤새서 읽어도 충분하네요</td>
-												<td>일주일두번밤샘</td>
-												<td>2017.06.14</td>
-												<td>8</td>
-											</tr>
-											<tr>
-												<td>2</td>
-												<td>..... 조카 크레파스 어디있어요?</td>
-												<td>악플다는편이야</td>
-												<td>2017.06.13</td>
-												<td>3</td>
-											</tr>
-											<tr>
-												<td>1</td>
-												<td>이도서 내가 좋아하는 편이야~</td>
-												<td>프으레이</td>
-												<td>2017.06.12</td>
-												<td>12</td>
-											</tr>
-										</tbody>
-									</table>
-									<a href="boardInsert.jsp" class="btn btn-default">글쓰기</a>
+									<form class="form-horizontal" action="adminBoardMain.jsp">
+										<fieldset>
+											<legend>글수정</legend>
+											<div class="form-group">
+												<label for="inputEmail" class="col-lg-2 control-label">제목</label>
+												<div class="col-lg-10">
+													<input type="text" class="form-control" id="inputEmail" value="..... 조카 크레파스 어디있어요?">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="textArea" class="col-lg-2 control-label">본문</label>
+												<div class="col-lg-10">
+													<textarea class="form-control" rows="3" id="textArea">아니 이사이트 악플 악플 욕욕 악플 나는 더러운 악플러</textarea>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputEmail" class="col-lg-2 control-label">작성자</label>
+												<div class="col-lg-10">
+													<input type="text" class="form-control" id="inputEmail" value="악플다는편이야">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputPassword" class="col-lg-2 control-label">비밀번호</label>
+												<div class="col-lg-10">
+													<input type="password" class="form-control"
+														id="inputPassword" placeholder="Password">
+													<div class="checkbox">
+														<label> <input type="checkbox"> 게시판의 성격과
+															무관한 글의 경우 삭제조치가 이루어 질 수 있습니다.
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-lg-10 col-lg-offset-2">
+													<button type="reset" class="btn btn-default">뒤로가기</button>
+													<button type="submit" class="btn btn-primary">삭제하기</button>
+												</div>
+											</div>
+										</fieldset>
+									</form>
 								</div>
 							</div>
 						</div>
