@@ -7,38 +7,6 @@
 <title>Book in the Box</title>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<style>
-.column {
-	float: left;
-	padding: 15px;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.menu {
-	width: 100%;
-}
-
-.content {
-	width: 75%;
-}
-
-.menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.menu li {
-	padding: 8px;
-	margin-bottom: 8px;
-	color: #ffffff;
-}
-</style>
 </head>
 <body>
 	<jsp:include page="/layout/top.jsp" flush="false" />
@@ -51,10 +19,10 @@
 			<tr>
 				<td>
 					<div class="btn-group-vertical">
-						<a href="#" class="btn btn-primary disabled">문학 </a> <a href="#"
-							class="btn btn-primary">자기계발</a> <a href="#"
-							class="btn btn-primary">과학 </a> <a href="#"
-							class="btn btn-primary">인문 </a>
+						<a href="#" class="btn btn-primary disabled">문학 </a>
+						<a href="#" class="btn btn-primary">자기계발</a>
+						<a href="#" class="btn btn-primary">과학 </a>
+						<a href="#" class="btn btn-primary">인문 </a>
 					</div>
 				</td>
 				<div class="clearfix">

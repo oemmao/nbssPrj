@@ -41,7 +41,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" class="button-align">
-						<a href="<%=route%>/index.jsp"><input type="button" class="btn btn-default " value="처음으로"></a>
+						<a href="<%=route%>/product/productList.jsp"><input type="button" class="btn btn-default " value="이전으로"></a>
 						<a href="<%=route%>/order/order.jsp"><input type="button" class="btn btn-primary " value="다음"></a>
 					</td>
 				</tr>

@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,38 +10,6 @@
 <title>Book in the Box</title>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<style>
-.column {
-	float: left;
-	padding: 15px;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.menu {
-	width: 100%;
-}
-
-.content {
-	width: 75%;
-}
-
-.menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.menu li {
-	padding: 8px;
-	margin-bottom: 8px;
-	color: #ffffff;
-}
-</style>
 </head>
 <body>
 	<jsp:include page="/layout/top.jsp" flush="false" />
@@ -111,7 +82,7 @@
 												<div class="col-lg-10 col-lg-offset-2">
 													<button type="reset" class="btn btn-default">Cancel</button>
 													<button type="submit" class="btn btn-primary">Submit</button>
-													<a href="boardMain.jsp"><button type="button" class="btn btn-default">List</button></a>
+													<a href="<%=route%>/board/boardMain.jsp"><button type="button" class="btn btn-default">List</button></a>
 												</div>
 											</div>
 										</fieldset>

@@ -15,7 +15,7 @@
 			<fieldset>
 				<legend>6월의 배송 도서</legend>
 				<div class="mainArticle-bookTable">
-				<table>
+				<table class="main-bookList">
 					<tr>
 						<td><img src="image/book.jpg" class="indeximg"><br>
 							6월 A도서</td>

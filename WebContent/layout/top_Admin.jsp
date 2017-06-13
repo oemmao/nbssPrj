@@ -11,8 +11,7 @@
 </header>
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
-		<div class="collapse navbar-collapse"
-			id="bs-example-navbar-collapse-1">
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
 				<li><a href="<%=route%>/index.jsp">관리자님, 로그아웃</a></li>
 				<%-- 			<li><a href="<%=route %>/member/memberInsert.jsp">회원가입</a></li> --%>

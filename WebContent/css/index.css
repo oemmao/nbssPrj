@@ -17,11 +17,11 @@
 	background-color: yellow;
 }
 .mainArticle-bookList {
-	height: 300px;
-	background-color: #E6E6E6;
-	border-bottom: 1px solid #BDBDBD;
-	text-align : center;
-	
+	/* height: 600px; */
+	/* background-color: #E6E6E6; */
+	margin: 50px 0;
+	/* border-bottom: 1px solid #BDBDBD; */
+	text-align: center;	
 }
 .mainArticle-csInfo {
 	height: 200px;
@@ -43,6 +43,7 @@
 	font-size:30px;
 }
 .mainArticle-bookTable table{
+	width: 50%;
 	margin:auto;
 /* 	margin-right:auto; */
 /* 	text-align: center; */
@@ -54,11 +55,10 @@
 }
 
 .indeximg{
-	width : 130px;
+	width : 250px;
 }
 
 .mainArticle-adminNewBook{
-	background-color: #E6E6E6;
 	border-bottom: 1px solid #BDBDBD;
 	text-align : center;
 	

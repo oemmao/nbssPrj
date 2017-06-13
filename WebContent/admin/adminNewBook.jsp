@@ -10,7 +10,8 @@
 </head>
 <body>
 	<jsp:include page="../layout/top_Admin.jsp" flush="false" />
-	<section> <article class="mainArticle-adminNewBook">
+	<section>
+	<article class="mainArticle-adminNewBook">
 	<fieldset>
 		<legend>신간도서관리</legend>
 		<div class="mainArticle-NewBookMana">
