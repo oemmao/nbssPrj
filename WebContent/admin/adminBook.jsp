@@ -17,18 +17,15 @@
 			<table>
 				<tr>
 					<th>도서명</th>
-					<td colspan="3"><input type="text" id="bookName"
-						class="insertbook"></td>
+					<td colspan="3"><input type="text" id="bookName" class="insertbook"></td>
 				</tr>
 				<tr>
 					<th>저자</th>
-					<td colspan="3"><input type="text" id="author"
-						class="insertbook"></td>
+					<td colspan="3"><input type="text" id="author" class="insertbook"></td>
 				</tr>
 				<tr>
 					<th>출간일</th>
-					<td colspan="3"><input type="text" id="date"
-						class="insertbook"></td>
+					<td colspan="3"><input type="text" id="date" class="insertbook"></td>
 				</tr>
 				<tr>
 					<th>고유번호</th>
@@ -76,12 +73,10 @@
 					</tr> -->
 				<tr>
 					<th>이미지</th>
-					<td colspan="3"><input type="file" class="insertbook"
-						id="bookImg"></td>
+					<td colspan="3"><input type="file" class="insertbook" id="bookImg"></td>
 				</tr>
 				<tr>
-					<td colspan="4"><a href="adminNewBook.jsp"><input
-							type="submit" value="등록"></a></td>
+					<td colspan="4"><a href="adminNewBook.jsp"><input type="submit" value="등록"></a></td>
 				</tr>
 
 
