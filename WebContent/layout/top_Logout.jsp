@@ -5,7 +5,7 @@
 %>
 <header class="mainHead"> 
 <div>
-	<img src="<%=route %>/image/bookinthebox.jpg" class="indexImg" >
+	<a href="<%=route %>/indexLogout.jsp"><img src="<%=route %>/image/bookinthebox.jpg" class="indexImg" ></a>
 </div>
 </header>
 <nav class="navbar navbar-default">
@@ -18,17 +18,17 @@
 					<span class="caret"></span>
 				</a>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">정보수정</a></li>
-					<li><a href="#">내가 받은 책 목록</a></li>
+					<li><a href="<%=route %>/member/memberPage.jsp">정보수정</a></li>
+					<li><a href="<%=route %>/myPage/myOrderList.jsp">내가 받은 책 목록</a></li>
 					<li class="divider"></li>
 					<li><a href="#">추가할거 하면 됨</a></li>
 					<li class="divider"></li>
 					<li><a href="#">추가할거 하면 됨</a></li>
 				</ul>	
 			<li><a href="#">소개</a></li>
-			<li><a href="#">정기배송</a></li>
-			<li><a href="#">도움말</a></li>
-			<li><a href="#">고객센터</a></li>
+			<li><a href="<%=route %>/product/productList.jsp">정기배송</a></li>
+			<li><a href="<%=route %>/board/boardMain.jsp">커뮤니티</a></li>
+			<li><a href="<%=route %>/help/help.jsp">도움말</a></li>
 		</ul>
 	</div>
 </div>

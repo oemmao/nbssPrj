@@ -13,7 +13,9 @@
 	<aside class=""> </aside>
 	<section> <article>
 	<fieldset>
-		<div align="center"><h2>게시판관리</h2></div>
+		<div align="center">
+			<h2>게시판관리</h2>
+		</div>
 
 		<table width="1000px" align="center">
 			<tr>
@@ -40,13 +42,14 @@
 						<div class="column content">
 							<div class="panel panel-default">
 								<div class="panel-body" align="center">
-									
-									<a href="#" class="btn btn-default">전체선택</a>
-									<a href="#" class="btn btn-default">삭제</a>
+
+									<a href="#" class="btn btn-default">전체선택</a> <a href="#"
+										class="btn btn-default">삭제</a>
 									<table class="table table-striped table-hover " align="center">
 										<thead>
 											<tr class="danger">
-												<th><input type="checkbox"></th>
+												<th><input type="checkbox" name="checkAll"
+													id="th_checkAll" onclick="checkAll();" /></th>
 												<th>글번호</th>
 												<th>글제목</th>
 												<th>글쓴이</th>
@@ -56,7 +59,7 @@
 										</thead>
 										<tbody>
 											<tr>
-												<th><input type="checkbox"></th>
+												<th><input type="checkbox" name="checkRow"></th>
 												<td>3</td>
 												<td>밤새서 읽어도 충분하네요</td>
 												<td>일주일두번밤샘</td>
@@ -64,15 +67,16 @@
 												<td>8</td>
 											</tr>
 											<tr>
-												<th><input type="checkbox"></th>
+												<th><input type="checkbox" name="checkRow"></th>
 												<td>2</td>
-												<td><a href="adminBoardInsert.jsp">..... 조카 크레파스 어디있어요?</a></td>
+												<td><a href="adminBoardInsert.jsp">..... 조카 크레파스
+														어디있어요?</a></td>
 												<td>악플다는편이야</td>
 												<td>2017.06.13</td>
 												<td>3</td>
 											</tr>
 											<tr>
-												<th><input type="checkbox"></th>
+												<th><input type="checkbox" name="checkRow"></th>
 												<td>1</td>
 												<td>이도서 내가 좋아하는 편이야~</td>
 												<td>프으레이</td>
@@ -81,7 +85,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<a href="boardInsert.jsp" class="btn btn-default">글쓰기</a>
+									<a href="boardInsert.jsp" class="btn btn-default disabled">글쓰기</a>
 								</div>
 							</div>
 						</div>
@@ -98,5 +102,13 @@
 	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
+<script>
+	function checkAll() {
+		if ($("#th_checkAll").is(':checked')) {
+			$("input[name=checkRow]").prop("checked", true);
+		} else {
+			$("input[name=checkRow]").prop("checked", false);
+		}
+	}
+</script>
 </html>

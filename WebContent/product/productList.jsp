@@ -25,20 +25,20 @@
 						<td><img src="<%=route %>/image/book.jpg" class="productImg" ></td>
 					</tr>
 					<tr>
-						<td><a href="#" class="btn btn-info">6개월 / 100,000원</a></td>
-						<td><a href="#" class="btn btn-info">12개월 / 150,000원</a></td>
-						<td><a href="#" class="btn btn-info">18개월  / 200,000원</a></td>
+						<td><a href="<%=route%>/product/productDetail.jsp" class="btn btn-info">6개월 / 100,000원</a></td>
+						<td><a href="<%=route%>/product/productDetail.jsp" class="btn btn-info">12개월 / 150,000원</a></td>
+						<td><a href="<%=route%>/product/productDetail.jsp" class="btn btn-info">18개월  / 200,000원</a></td>
 					</tr>
-					<tr>
-						<td colspan="3">
+				<tr>
+					<td colspan="3">
 						<div class="form-group">
-						<div class="col-lg-10 col-lg-offset-2 button-align">
-						<button type="submit" class="btn btn-primary">메인으로</button>
+							<div class="col-lg-10 col-lg-offset-2 button-align">
+								<a href="<%=route%>/index.jsp"><input type="button" class="btn btn-default " value="처음으로"></a>
+							</div>
 						</div>
-						</div>
-						</td>
-					</tr>	
-				</table>
+					</td>
+				</tr>
+			</table>
 				
 			</fieldset>
 		</form>	
