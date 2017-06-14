@@ -2,11 +2,8 @@
 	pageEncoding="UTF-8"%>
 <%
 	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
-<<<<<<< HEAD
 %>
-=======
-%>	
->>>>>>> ba046243b22ecdf2a685cffdefff8255d27fb062
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
