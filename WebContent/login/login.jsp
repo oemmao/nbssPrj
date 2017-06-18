@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -28,11 +31,11 @@
 					</div>
 				</div>				
 				<div class="form-group">
-					<div class="col-lg-10 col-lg-offset-2">
+					<div class="col-lg-10 col-lg-offset-2 button-align">
 						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<a href="<%=route%>/index.jsp"><input type="button" class="btn btn-primary " value="로그인"></a>
 					</div>
-				</div>
+				</div>	
 			</fieldset>
 		</form>
 	</article> 

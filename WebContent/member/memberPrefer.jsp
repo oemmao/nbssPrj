@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,31 +24,31 @@
 					<div class="col-lg-10">
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								10대 이하
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								10대
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								20대
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								30대
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">
 								40대 이상
 							</label>
 						</div>
@@ -55,22 +59,31 @@
 					<div class="col-lg-10">
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios2" id="optionsRadios2" value="option2" checked="">
 								예
 							</label>
 						</div>
 						<div class="radio">
 							<label> 
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								<input type="radio" name="optionsRadios2" id="optionsRadios2" value="option2" checked="">
 								아니오
 							</label>
 						</div>
 					</div>
 				</div>
 				<div class="form-group">
+<<<<<<< HEAD
+					<div class="col-lg-10 col-lg-offset-2 button-align ">
+						<a href="<%=route%>/member/memberInsert.jsp"><input type="button" class="btn btn-default" value="이전으로"></a>						
+						<a href="<%=route%>/index.jsp"><input type="button" class="btn btn-primary" value="가입완료"></a>						
+=======
 					<div class="col-lg-10 col-lg-offset-2">
+						
 						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<a href="/nbssPrj/index.jsp"><input type="button" class="btn btn-primary" value="Submit"></a>	
+										
+						
+>>>>>>> ba046243b22ecdf2a685cffdefff8255d27fb062
 					</div>
 				</div>
 			</fieldset>

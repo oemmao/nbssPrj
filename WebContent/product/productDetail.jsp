@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -37,8 +40,9 @@
 					<td>블라블라~</td>
 				</tr>
 				<tr>
-					<td colspan="2"><button type="submit" class="btn btn-primary">구매하기</button>
-					<button type="reset" class="btn btn-default">메인으로</button>
+					<td colspan="2" class="button-align">
+						<a href="<%=route%>/product/productList.jsp"><input type="button" class="btn btn-default " value="이전으로"></a>
+						<a href="<%=route%>/order/order.jsp"><input type="button" class="btn btn-primary " value="다음"></a>
 					</td>
 				</tr>
 			</tbody>

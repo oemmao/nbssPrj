@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,25 +13,24 @@
 </head>
 <body>
 	<jsp:include page="/layout/top.jsp" flush="false" />
-	<section>
-		<article>
-		
-			<div class="jumbotron">
-  				<h1>결제가 완료되었습니다.</h1>
-  				<p>		회원님! 도서는 매월 10일 일괄배송됩니다. </p>
-				<p><a class="btn btn-primary btn-lg">마이페이지로</a></p>
-			</div>		
-			
-			<div class="form-group">
-					<div class="col-lg-10 col-lg-offset-2">
-						<button type="reset" class="btn btn-default">처음으로</button>
-						<button type="submit" class="btn btn-primary">다음</button>
-					</div>
-				</div>
-		</article> 
-		<jsp:include page="/layout/section_CS.jsp" flush="false" />
-		
-	</section>
+	<section> <article>
+
+	<div class="jumbotron">
+		<h1>결제가 완료되었습니다.</h1>
+		<p>회원님! 도서는 매월 10일 일괄배송됩니다.</p>
+
+		<div class="form-group">
+			<div class="col-lg-10 col-lg-offset-2">
+				<a href="<%=route%>/index.jsp"><input type="button"
+					class="btn btn-default " value="처음으로"></a> <a
+					href="<%=route%>/myPage/myOrderList.jsp"><input type="button"
+					class="btn btn-primary " value="마이페이지로 이동"></a>
+			</div>
+		</div>
+	</div>
+
+
+	</article> <jsp:include page="/layout/section_CS.jsp" flush="false" /> </section>
 	<jsp:include page="/layout/bottom.jsp" flush="false" />
 </body>
 
