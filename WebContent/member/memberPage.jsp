@@ -47,9 +47,9 @@
 				</div>
 				
 				<div class="form-group">
-					<div class="col-lg-10 col-lg-offset-2">
-						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit</button>
+					<div class="col-lg-10 col-lg-offset-2 button-align">
+						<button type="reset" class="btn btn-default">처음으로</button>
+						<button type="submit" class="btn btn-primary">수정완료</button>
 					</div>
 				</div>
 			</fieldset>
